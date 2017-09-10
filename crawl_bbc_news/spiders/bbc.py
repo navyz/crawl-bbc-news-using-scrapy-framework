@@ -36,7 +36,6 @@ class BbcSpider(scrapy.Spider):
 							category= article_category, 
 		                    introduction= introduction,
 		                    content_html= body_content,
-		                    id = 0,
 		                    content_text = "xxx"                    	
 		                )
 		 
