@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"bodypa",
+				"bodayParser"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"ht",
+				"htmlReturned"
+			],
+			[
+				"Content",
+				"Content-Type"
+			],
+			[
+				"real",
+				"realPerson"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"search",
+				"searchText"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"bitcon",
+				"bitcoin_dao"
+			],
+			[
+				"gao_",
+				"gao_new"
+			],
+			[
+				"existing",
+				"existing_satoshi"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/spiders/__init__.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/settings.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/pipelines.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/middlewares.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/items.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/crawl_bbc_news/spiders/bbc.py",
+		"/Users/minhson/Google Drive/live/codez/Research/scrapy/crawl_bbc_news/crawl_bbc_news/scrapy.cfg",
+		"/Users/minhson/Downloads/image-downloader-master/scripts/popup.js",
+		"/Users/minhson/Downloads/comic/menu.php",
+		"/Users/minhson/Google Drive/live/codez/tienlen/interface/tienlen.py",
+		"/Users/minhson/Downloads/image-downloader-master/manifest.json",
+		"/Users/minhson/Downloads/image-downloader-master/scripts/options.js",
+		"/Users/minhson/Downloads/image-downloader-master/views/options.html",
+		"/Users/minhson/Downloads/image-downloader-master/scripts/defaults.js",
+		"/Users/minhson/Downloads/image-downloader-master/scripts/send_images.js",
+		"/Users/minhson/Downloads/image-downloader-master/views/popup.html",
+		"/Users/minhson/Downloads/comic/than_dong_dat_viet__114_an_trau_nam_suu_0000.php",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/resources/file2.txt",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/resources/file1.txt",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/text-diff.js",
+		"/Users/minhson/Downloads/image-downloader-master/lib/zepto.js",
+		"/Users/minhson/Downloads/image-downloader-master/lib/jss.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/resources/left.html",
+		"/Users/minhson/Desktop/Diff Chars.html",
+		"/Users/minhson/Downloads/Computed Diff - Diff Checker_files/index.701ca343bc27275bd775.js",
+		"/Users/minhson/Downloads/diffchecker.htm",
+		"/Users/minhson/Downloads/diffchecker_files/C6AILKT.json",
+		"/Users/minhson/Downloads/diffchecker_files/carbon.js",
+		"/Users/minhson/Desktop/Diff Checker - Online diff tool to compare text to find the difference between two text files.html",
+		"/Users/minhson/Downloads/Computed Diff - Diff Checker.html",
+		"/Users/minhson/Google Drive/live/codez/Research/ffserver/index.html",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/tools.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/test/tools-spec.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/compareText.html",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/css/compareText.css",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/diff.js",
+		"/Users/minhson/Google Drive/live/codez/Research/ffserver/index.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/compareText.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/server.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/server2.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/express_site/index.html",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/express_site/js/app.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/index.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/express_site/index.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/read.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/prompt.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/directory.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/rename.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/test.md",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/alwaysTalking.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/spawn.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/people.json",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/list.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/lib/Person.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/eventEmitter.js",
+		"/Users/minhson/Google Drive/live/codez/Research/nodejs/exec.js",
+		"/Users/minhson/Desktop/angular/angular-animation.html",
+		"/Users/minhson/Desktop/angular/js/angular-partial-controller.js",
+		"/Users/minhson/Desktop/angular/js/angular-animation.js",
+		"/Users/minhson/Desktop/angular/css/style.css",
+		"/Users/minhson/Desktop/angular/css/style.csd",
+		"/Users/minhson/Desktop/angular/partials/details.html",
+		"/Users/minhson/Desktop/angular/partials/list.html",
+		"/Users/minhson/Desktop/angular/angular-partial.html",
+		"/Users/minhson/Desktop/angular/js/angular-partial-app.js",
+		"/Users/minhson/Desktop/angular/js/angular-filter.js",
+		"/Users/minhson/Desktop/angular/angular-filter.html",
+		"/Users/minhson/Desktop/angular/js/angular-json.js",
+		"/Users/minhson/Desktop/angular/js/controller.js",
+		"/Users/minhson/Desktop/angular/index.html",
+		"/Users/minhson/Desktop/angular/angular-controller.html",
+		"/Users/minhson/Desktop/angular/hello-angular.html",
+		"/Users/minhson/Desktop/angular/angular-json.html",
+		"/Users/minhson/Desktop/angular/js/speakers.json",
+		"/Users/minhson/Desktop/angular/js/angular-json.html",
+		"/Users/minhson/Desktop/angular/lib/angular/angular.js",
+		"/Users/minhson/Downloads/VECTOR_PLAYING_CARDS_VERSION_2/52_Cards_Various_Color_Faces_(INKSCAPE_ONLY)/Worn_Dimpled_52_Faces_v.2.0.svg",
+		"/Users/minhson/Downloads/VECTOR_PLAYING_CARDS_VERSION_2/52_Cards_Various_Color_Faces_(INKSCAPE_ONLY)/Blue_52_Faces_v.2.0.svg",
+		"/Users/minhson/Downloads/VECTOR_PLAYING_CARDS_VERSION_2/52_Cards_Color_Faces_Set/Color_52_Faces_v.2.0.svg",
+		"/Users/minhson/Personal/Soft/cq5/license.properties",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/ComputerFour.cs",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/Card.cs",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/Player.cs",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/Game.cs",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/Program.cs",
+		"/Users/minhson/Downloads/Thirteen(Src and Binary ver 0.69)/Thirteen/src/Tile.cs",
+		"/Users/minhson/Desktop/a7.txt",
+		"/Users/minhson/Desktop/a8.txt",
+		"/Users/minhson/Desktop/a9.txt",
+		"/Users/minhson/Desktop/a5.txt",
+		"/Users/minhson/Google Drive/live/working_files/projects_archived/DOS/source/poes/out/artifacts/internet_war_exploded/resources/themify-icons/SVG/notepad.svg",
+		"/Users/minhson/Google Drive/live/codez/DotNet/Baidu/Mouse.cs",
+		"/Volumes/My Passport/BIG/isach/working/temp/motsach_vbulletin-26-09-12.sql",
+		"/Volumes/My Passport/BIG/isach/working/temp/script.sql",
+		"/Volumes/My Passport/BIG/isach/working/temp/docsach.sql",
+		"/Volumes/My Passport/BIG/isach/working/docs/notes + history + steps + list/firefox-bookmarks-2015-07-27.json",
+		"/Users/minhson/Downloads/archived/src-2/gulpfile.js",
+		"/Users/minhson/Personal/work/Sales/brother/BrotherSingaporeCOUNT/1. biz module/CreditControl/CustomerList.aspx.cs",
+		"/Users/minhson/Personal/work/Sales/brother/BrotherSingaporeCOUNT/1. biz module/CreditControl/CustomerNew.aspx.cs",
+		"/Users/minhson/Personal/work/Sales/brother/BrotherSingaporeCOUNT/1. biz module/CreditControl/UpdateCustomer.aspx.cs",
+		"/Users/minhson/isach/pghtml/motsach/payment/payment.php",
+		"/Users/minhson/isach/pghtml/motsach/payment/paypal.php",
+		"/Users/minhson/isach/pghtml/mobile/payment/ngan_luong_the_cao.php",
+		"/Users/minhson/Personal/work/DOS/docs/TableBuilder/Deployment/Updatedb.sql",
+		"/Users/minhson/isach/pghtml/mobile/payment/bitcoin.php",
+		"/Users/minhson/isach/pghtml/mobile/payment/payment.php",
+		"/Users/minhson/Personal/work/DOS/docs/TableBuilder/Deployment/Updatedb_RB.sql",
+		"/Users/minhson/isach/pghtml/mobile/payment/paypal.php",
+		"/Users/minhson/isach/pghtml/motsach/login/userprofile.php",
+		"/Users/minhson/isach/pghtml/mobile/login/userprofile.php",
+		"/Users/minhson/isach/pghtml/common/utilities/utilities.php",
+		"/Users/minhson/isach/pghtml/common/dao/bitcoin_dao.php",
+		"/Users/minhson/isach/pghtml/common/ajax/bitcoin_ajax.php",
+		"/Users/minhson/isach/pghtml/motsach/payment/ngan_luong_the_cao.php",
+		"/Users/minhson/isach/pghtml/common/ajax/nl_card_ajax.php",
+		"/Users/minhson/isach/pghtml/motsach/payment/bitcoin.php",
+		"/private/tmp/address.txt",
+		"/Users/minhson/isach/pghtml/common/dao/ebook_dao.php",
+		"/Users/minhson/isach/scripts/batch/gen_qr/gen_bitcoin_qr.php",
+		"/Users/minhson/isach/pghtml/common/dao/logs_dao.php",
+		"/Users/minhson/isach/pghtml/common/dao/story_dao.php",
+		"/Users/minhson/isach/pghtml/common/dao/connection.php",
+		"/Users/minhson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/minhson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/minhson/isach/pghtml/common/dao/login_dao.php",
+		"/Users/minhson/isach/pghtml/common/ajax/active_user_ajax.php",
+		"/Volumes/My Passport/MyCode/ConvertUniCodeToUTF8/ConvertUniCodeToUTF8/Program.cs",
+		"/Volumes/My Passport/MyCode/Baseline/sonlm/decrypt_password.jsp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/minhson/isach/pghtml"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"than_dong_dat_viet__122_thoat_khoi_gian_thieu/comic-122",
+			"than_dong_dat_viet__121_vo_roi_tren_khong/comic-121",
+			"than_dong_dat_viet__120_mon_do_boi_bac/comic-120",
+			"than_dong_dat_viet__119_su_gia_dem_trang/comic-119",
+			"than_dong_dat_viet__118_co_lon_khao_lang/comic-118",
+			"than_dong_dat_viet__117_my_vien_lang_phe/comic-117",
+			"than_dong_dat_viet__116_hat_tieu_cay_doc/comic-116",
+			"than_dong_dat_viet__115_ba_nen_vang_oan/comic-115",
+			"than_dong_dat_viet__114_an_trau_nam_suu/",
+			"than_dong_dat_viet__114_an_trau_nam_suu",
+			"Trang 0",
+			"^.+comic_image_(\\d+).+",
+			".+",
+			"\\s+",
+			"\\s*",
+			"filename",
+			"suggest",
+			"sugest",
+			"file_counter",
+			"suggest",
+			"download",
+			"showDefaultFolder",
+			"suggestNewFilename",
+			"download",
+			"filename",
+			"suggestNewFilename",
+			"image_number",
+			"addNotification",
+			"image_number",
+			"show_image_width_filter_checkbox",
+			"option",
+			"ls.",
+			"image_number",
+			"folder_name_textbox",
+			"folder_name_textbox\n\tfolder_name_textbox\n\tfolder_name_textbox",
+			"folder_name_textbox\nfolder_name_textbox\nfolder_name_textbox",
+			"folder_name_textbox\nfolder_name_textbox",
+			"folder_name_textbox",
+			"popup.js",
+			"image_min_width_numberbox",
+			"download",
+			"option",
+			"default",
+			"startDownload",
+			"number",
+			"option",
+			"image_number",
+			"click",
+			"localStorage",
+			"save_button",
+			"new_file_name",
+			"image_number",
+			"suggestNewFilename",
+			"new_file_name",
+			"extractImagesFromStyles",
+			"download_button",
+			"analytics",
+			"775",
+			"headers",
+			"js",
+			"\\s",
+			"\\t",
+			" ",
+			"\\s",
+			"\\t",
+			".+",
+			"1DKgPasnGNsw5GDfLKDGn2i7MChDkiqNVt",
+			"10",
+			"5",
+			">5",
+			">10<",
+			"10",
+			"echo",
+			"row->",
+			"row[i]->",
+			"pg_query(",
+			"desc",
+			"ORDER",
+			"5",
+			"max",
+			"'json').error(functio",
+			"bitcoin_msg",
+			"post_data",
+			"bitcoin_msg",
+			".+",
+			"last_update_date",
+			"update_date",
+			"updated_date",
+			"login_dao::",
+			"ngan_",
+			"ngan_luong",
+			"calc_",
+			"calc_gao",
+			"gao_new",
+			"$_POST",
+			"ngan_luong.log",
+			"mBTC",
+			"btc_update_gao",
+			"error_message_box",
+			"ngan_luong_msg",
+			"nl_amount"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"than_dong_dat_viet__123_hoi_sinh_lang_lua/comic-123",
+			"than_dong_dat_viet__122_thoat_khoi_gian_thieu/comic-122",
+			"than_dong_dat_viet__121_vo_roi_tren_khong/comic-121",
+			"than_dong_dat_viet__120_mon_do_boi_bac/comic-120",
+			"than_dong_dat_viet__119_su_gia_dem_trang/comic-119",
+			"than_dong_dat_viet__118_co_lon_khao_lang/comic-118",
+			"than_dong_dat_viet__117_my_vien_lang_phe/comic-117",
+			"than_dong_dat_viet__116_hat_tieu_cay_doc/comic-116",
+			"than_dong_dat_viet__115_ba_nen_vang_oan/comic-115-",
+			"than_dong_dat_viet__115_ba_nen_vang_oan",
+			"Trang ",
+			"$1",
+			"<img id='comic_image_' title='Trang ' class='comic_image' src='than_dong_dat_viet__114_an_trau_nam_suu/$0' />",
+			"<img id='comic_image_' title='Trang ' class='comic_image' src='than_dong_dat_viet__114_an_trau_nam_suu/\\0' />",
+			"\\n",
+			"insert into isach_login.user_btc (address) VALUES ('$0');",
+			"insert into isach_login.user_btc (address) VALUES ('\\0');",
+			"bitcoin.log",
+			"µBTC",
+			"bitcoin_msg",
+			"btc_amount",
+			"btc_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scrapy.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
