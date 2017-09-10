@@ -1,0 +1,5 @@
+scrapy.sublime-workspace
+*.swp
+*.pyc
+.DS_Store
+
