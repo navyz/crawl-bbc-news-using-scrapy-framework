@@ -24,6 +24,11 @@ ITEM_PIPELINES = {
     'crawl_bbc_news.mongo_pipeline.MongoPipeline': 200
 }
 
-MONGO_URI = "mongodb://localhost:27017"
+#MONGO_URI = "mongodb://localhost:27017"
+MONGO_URI = "mongodb://bbc:password1@aws-ap-southeast-1-portal.2.dblayer.com:15987/bbc?ssl=true"
 MONGO_DATABASE = "bbc"
+SSL_CA_FILE = "key.pk"
 
+COMPOSE_TOKEN = "143d518e50101839bb7bafb404cbad2dd607203fc1edd7117927d7f48dfc2bbf"
+
+LOG_LEVEL='INFO'

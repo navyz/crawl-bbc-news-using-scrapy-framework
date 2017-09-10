@@ -36,7 +36,7 @@ class BbcSpider(scrapy.Spider):
 							category= article_category, 
 		                    introduction= introduction,
 		                    content_html= body_content,
-		                    content_text = "xxx"                    	
+		                    content_text = ""                    	
 		                )
 		 
 		 # Parsing all the a tag for the next requests               

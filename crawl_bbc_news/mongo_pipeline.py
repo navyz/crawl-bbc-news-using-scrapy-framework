@@ -13,8 +13,9 @@ class MongoPipeline(object):
 
     @classmethod
     def from_crawler(cls, crawler):
+        combined_uri = crawler.settings.get('MONGO_URI') + "&ssl_ca_certs=" + crawler.settings.get('SSL_CA_FILE') 
         return cls(
-            mongo_uri=crawler.settings.get('MONGO_URI'),
+            mongo_uri=combined_uri,
             mongo_db=crawler.settings.get('MONGO_DATABASE')
         )
 

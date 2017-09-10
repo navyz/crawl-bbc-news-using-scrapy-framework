@@ -11,7 +11,6 @@ class CleansingPipeline(object):
         pass
 
     def process_item(self, item, spider):
-        print ("_________________________________________________________")
         soup = BeautifulSoup(item["content_html"], 'html.parser')
         for script in soup(["script", "style"]):
             script.extract()
