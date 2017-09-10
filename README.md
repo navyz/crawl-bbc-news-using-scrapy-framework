@@ -88,4 +88,9 @@ db.article.createIndex( { article_date: 1 } )
 
 ` python 3.6 bbc_ws.py & `
 
+## TODO
 
+1. Use hosted mongo database instead of local one
+2. Let spider run as daemon and incremential crawl
+3. Improve the function to clean up the html/text
+4. Crawl more information from the page beside news.
