@@ -23,31 +23,31 @@ Some command lines which are used to setup environment as well as execute the sc
 
 ### Install packages 
 
-**-0- Install python3.6**
+0. Install python3.6
 >	Package can be downloaded from https://www.python.org/downloads/
 
-**-1- Crawling framework**
+1. Crawling framework
 	`	pip3.6 install --user scrapy  `
 	OR  
 	`	sudo python3.6 -m pip3.6 install scrapy	`
 
-**-2- mongodb driver for python**
+2. mongodb driver for python
 	`	sudo python3.6 -m pip3.6 install pymongo	`
 
-**-3- python web framework for building RESFul web services**
+3. python web framework for building RESFul web services
 	`	sudo python3.6 -m pip3.6 install --user bottle 	`
 
-**-4- beautifulsoup4**
+4. beautifulsoup4
 	`	sudo python3.6 -m pip3.6 install --user beautifulsoup4	`
 
 ### Setup mongodb database 
 
 > For simplicity of demo purpose, this database allow anonymous access. If you want setup db authentication, need to update the settings.py #MONGO_URI
 
-**-1-  start mongo daemon**
+1.  start mongo daemon
 `	mongod &	`
 
-**-2-  create database, collection and index**
+2.  create database, collection and index
 `	mongo 	`
 
 > ... and in the mongodb shell, run these command to create database, collection and `
@@ -67,13 +67,13 @@ db.article.createIndex( { article_date: 1 } )
 
 ### start up processes 
 
-**-0-  start mongd**
+1.  start mongd
 ` mongod & `
 
-**-1-  start crawling**
+2.  start crawling
 ` scrapy crawl bbc & `
 
-**-2-  start web service**
+3.  start web service
 ` python 3.6 bbc_ws.py & `
 
 
