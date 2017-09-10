@@ -51,14 +51,16 @@ Some command lines which are used to setup environment as well as execute the sc
 `	mongo 	`
 
 > ... and in the mongodb shell, run these command to create database, collection and `
-indexes**
+indexes
+
+```
 use bbc
 db.createCollection("article")
 
 db.article.createIndex( { url: 1 } )
 db.article.createIndex( { category: 1 } )
 db.article.createIndex( { article_date: 1 } )
-`
+```
 
 > Verify the indexes created correctly
 `	db.article.getIndexes()	`
