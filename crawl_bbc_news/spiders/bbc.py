@@ -20,15 +20,15 @@ class BbcSpider(scrapy.Spider):
 
 		# Parsing the response and store in the item object
 		title = response.xpath('(//h1)[1]/text()').extract_first()
-	        if title and (not title.isspace()):
-	            mini_info = response.css('ul.mini-info-list');
-	            article_date = mini_info.xpath("(./li)[1]/div/text()").extract_first() 
-	            article_category = mini_info.xpath("(./li)[2]/a/text()").extract_first() 
-	            if article_category and not article_category.isspace():
-	                article_body = response.css("div.story-body__inner")    
-	                introduction = article_body.css("p.story-body__introduction::text").extract_first()
-	                body_content = article_body.extract_first()
-	                if article_body and introduction and body_content:
+		    if title and (not title.isspace()):
+		        mini_info = response.css('ul.mini-info-list');
+		        article_date = mini_info.xpath("(./li)[1]/div/text()").extract_first() 
+		        article_category = mini_info.xpath("(./li)[2]/a/text()").extract_first() 
+		        if article_category and not article_category.isspace():
+		            article_body = response.css("div.story-body__inner")    
+		            introduction = article_body.css("p.story-body__introduction::text").extract_first()
+		            body_content = article_body.extract_first()
+		            if article_body and introduction and body_content:
 		                yield CrawlBbcNewsItem(
 							title= title, 
 							url= response.url, 
