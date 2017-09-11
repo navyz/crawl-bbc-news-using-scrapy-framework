@@ -15,34 +15,37 @@ mongodb_uri = "mongodb://bbc:password1@aws-ap-southeast-1-portal.2.dblayer.com:1
 def help():
 	return '''
 		<div>
-			<h1>BBC NEWS - web services</h1>
+			<h1>BBC NEWS - RESTFul web services</h1>
+			<p><i>This web services is for demo purpose. Exposed the information web crap from http://www.bbc.com using scrapy framework and save to MongoDB.</i></p>
+
+
 			<p><b>1. To view the help page (this one)</b></p>
 			<p><i>http://bbc.cogai.info/</i></p>
 			<br/>
 
 			<p><b>2. To list all news category</b></p>
-			<p><i>http://bbc.cogai.info/category/list/</i></p>
+			<p><a href='http://bbc.cogai.info/category/list/'>http://bbc.cogai.info/category/list/</a></p>
 			<br/>
 
 			<p><b>3. To list all article of a category (ex. Asia)</b></p>
-			<p><i>http://bbc.cogai.info/article/list/category/Asia</i></p>
+			<p><a href='http://bbc.cogai.info/article/list/category/Asia'>http://bbc.cogai.info/article/list/category/Asia</a></p>
 			<br/>
 
 
 			<p><b>4. To list all article created by date (ex. 9 Sep 2017)</b></p>
-			<p><i>http://bbc.cogai.info/article/list/category/9 Sep 2017</i></p>
+			<p><a href='http://bbc.cogai.info/article/list/category/9 Sep 2017'>http://bbc.cogai.info/article/list/category/9 Sep 2017</a></p>
 			<br/>
 
 			<p><b>5. To view detail information of an article  (ex. id = 59b5e0659fdee40ef667fe8e)</b></p>
-			<p><i>http://bbc.cogai.info/article/detail/id/59b5e0659fdee40ef667fe8e</i></p>
+			<p><a href='http://bbc.cogai.info/article/detail/id/59b5e0659fdee40ef667fe8e'>http://bbc.cogai.info/article/detail/id/59b5e0659fdee40ef667fe8e</a></p>
 			<br/>
 
 			<p><b>6. To get the content (body only) of the article in text only format</b></p>
-			<p><i>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</i></p>
+			<p><a href='http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e'>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</a></p>
 			<br/>
 
 			<p><b>7. To get the content (body only) of the article in html only format</b></p>
-			<p><i>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</i></p>
+			<p><a href='http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e'>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</a></p>
 			<br/>
 
 		</div>
