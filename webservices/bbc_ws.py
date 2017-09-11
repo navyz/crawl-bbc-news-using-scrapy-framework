@@ -32,8 +32,8 @@ def help():
 			<br/>
 
 
-			<p><b>4. To list all article created by date (ex. 9 Sep 2017)</b></p>
-			<p><a href='http://bbc.cogai.info/article/list/date/9 Sep 2017'>http://bbc.cogai.info/article/list/category/9 Sep 2017</a></p>
+			<p><b>4. To list all article created by date (ex. 22 Aug 2017)</b></p>
+			<p><a href='http://bbc.cogai.info/article/list/date/22%20August%202017'>http://bbc.cogai.info/article/list/date/22%20August%202017</a></p>
 			<br/>
 
 			<p><b>5. To view detail information of an article  (ex. id = 59b5e0659fdee40ef667fe8e)</b></p>
