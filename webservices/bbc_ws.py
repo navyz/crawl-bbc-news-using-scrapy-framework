@@ -13,7 +13,7 @@ mongodb_uri = "mongodb://bbc:password1@aws-ap-southeast-1-portal.2.dblayer.com:1
 #   ex: http://localhost:8080/category/list
 @route('/', method='GET')
 def help():
-	return ```
+	return '''
 		<div>
 			<h1>BBC NEWS - web services</h1>
 			<p><b>1. To view the help page (this one)</b></p>
@@ -46,7 +46,7 @@ def help():
 			<br/>
 
 		</div>
-	```
+	'''
 # Get a list of all article category
 #   ex: http://localhost:8080/category/list
 @route('/category/list/', method='GET')
