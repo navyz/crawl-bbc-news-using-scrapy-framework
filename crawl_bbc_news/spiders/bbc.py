@@ -10,7 +10,7 @@ class BbcSpider(scrapy.Spider):
 	name = 'bbc'
 	allowed_domains = ['bbc.com']
 
-	start_urls = ['http://bbc.com/news']
+	start_urls = ['http://www.bbc.com/news']
 
 	# Parse the request get the major content and next link
 	# The result (item), will be pass through to 2 pipeline 

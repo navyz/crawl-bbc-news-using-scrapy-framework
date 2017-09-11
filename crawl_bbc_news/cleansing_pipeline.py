@@ -1,6 +1,6 @@
 import pymongo
 from bs4 import BeautifulSoup
-from items import CrawlBbcNewsItem
+from .items import CrawlBbcNewsItem
 
 # Use the SoupBeauti library to clean up the html
 # - reformat the html page
