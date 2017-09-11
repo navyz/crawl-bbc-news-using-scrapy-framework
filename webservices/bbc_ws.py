@@ -67,7 +67,7 @@ def get_list_articles_by_category(category):
 	client = MongoClient(mongodb_uri)
 	db = client.bbc
 	collection = db.article
-	doc = collection.find({"category": category}, {"_id": 1, "status": 1, "category": 1, "title": 1, "date": 1})
+	doc = collection.find({"category": category}, {"_id": 1, "status": 1, "category": 1, "title": 1, "article_date": 1})
 	return dumps(doc)
 
 # Get a list of all article on a given date
@@ -79,7 +79,7 @@ def get_list_articles_by_date(article_date):
 	client = MongoClient(mongodb_uri)
 	db = client.bbc
 	collection = db.article
-	doc = collection.find({"article_date": article_date}, {"_id": 1, "status": 1, "category": 1, "title": 1, "date": 1})
+	doc = collection.find({"article_date": article_date}, {"_id": 1, "status": 1, "category": 1, "title": 1, "article_date": 1})
 	return dumps(doc)
 
 # Get the article detail by id. A JSON object will be returned

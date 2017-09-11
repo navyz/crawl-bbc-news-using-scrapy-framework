@@ -28,7 +28,7 @@ Some command lines which are used to setup environment as well as execute the sc
 
 1. Crawling framework
 
-`	pip3.6 install --user scrapy  `
+`	conda  `
 
 OR  
 
@@ -90,7 +90,6 @@ db.article.createIndex( { article_date: 1 } )
 
 ## TODO
 
-1. Use hosted mongo database instead of local one
-2. Let spider run as daemon and incremential crawl
-3. Improve the function to clean up the html/text
-4. Crawl more information from the page beside news.
+1. Let spider run as daemon and incremential crawl
+2. Improve the function to clean up the html/text
+3. Crawl more information from the page beside news.
