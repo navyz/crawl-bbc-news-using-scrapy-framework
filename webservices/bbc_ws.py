@@ -9,7 +9,44 @@ from bottle import route, request
 # TODO2: create connection pool for mongodb
 mongodb_uri = "mongodb://bbc:password1@aws-ap-southeast-1-portal.2.dblayer.com:15987/bbc?ssl=true&ssl_ca_certs=key.pk" 
 
+# Get a list of all article category
+#   ex: http://localhost:8080/category/list
+@route('/', method='GET')
+def help():
+	return ```
+		<div>
+			<h1>BBC NEWS - web services</h1>
+			<p><b>1. To view the help page (this one)</b></p>
+			<p><i>http://bbc.cogai.info/</i></p>
+			<br/>
 
+			<p><b>2. To list all news category</b></p>
+			<p><i>http://bbc.cogai.info/category/list/</i></p>
+			<br/>
+
+			<p><b>3. To list all article of a category (ex. Asia)</b></p>
+			<p><i>http://bbc.cogai.info/article/list/category/Asia</i></p>
+			<br/>
+
+
+			<p><b>4. To list all article created by date (ex. 9 Sep 2017)</b></p>
+			<p><i>http://bbc.cogai.info/article/list/category/9 Sep 2017</i></p>
+			<br/>
+
+			<p><b>5. To view detail information of an article  (ex. id = 59b5e0659fdee40ef667fe8e)</b></p>
+			<p><i>http://bbc.cogai.info/article/detail/id/59b5e0659fdee40ef667fe8e</i></p>
+			<br/>
+
+			<p><b>6. To get the content (body only) of the article in text only format</b></p>
+			<p><i>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</i></p>
+			<br/>
+
+			<p><b>7. To get the content (body only) of the article in html only format</b></p>
+			<p><i>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</i></p>
+			<br/>
+
+		</div>
+	```
 # Get a list of all article category
 #   ex: http://localhost:8080/category/list
 @route('/category/list/', method='GET')
