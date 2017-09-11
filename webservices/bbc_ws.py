@@ -15,7 +15,7 @@ mongodb_uri = "mongodb://bbc:password1@aws-ap-southeast-1-portal.2.dblayer.com:1
 def help():
 	return '''
 		<div>
-			<h1>BBC NEWS - RESTFul web services</h1>
+			<h1>BBC NEWS - RESTful web services</h1>
 			<p><i>This web services is for demo purpose. Exposed the information web crap from http://www.bbc.com using scrapy framework and save to MongoDB.</i></p>
 
 
@@ -33,7 +33,7 @@ def help():
 
 
 			<p><b>4. To list all article created by date (ex. 9 Sep 2017)</b></p>
-			<p><a href='http://bbc.cogai.info/article/list/category/9 Sep 2017'>http://bbc.cogai.info/article/list/category/9 Sep 2017</a></p>
+			<p><a href='http://bbc.cogai.info/article/list/date/9 Sep 2017'>http://bbc.cogai.info/article/list/category/9 Sep 2017</a></p>
 			<br/>
 
 			<p><b>5. To view detail information of an article  (ex. id = 59b5e0659fdee40ef667fe8e)</b></p>
@@ -45,7 +45,7 @@ def help():
 			<br/>
 
 			<p><b>7. To get the content (body only) of the article in html only format</b></p>
-			<p><a href='http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e'>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</a></p>
+			<p><a href='http://bbc.cogai.info/article/html/id/59b5e0659fdee40ef667fe8e'>http://bbc.cogai.info/article/text/id/59b5e0659fdee40ef667fe8e</a></p>
 			<br/>
 
 		</div>
@@ -79,7 +79,7 @@ def get_list_articles_by_date(article_date):
 	client = MongoClient(mongodb_uri)
 	db = client.bbc
 	collection = db.article
-	doc = collection.find({"date": article_date}, {"_id": 1, "status": 1, "category": 1, "title": 1, "date": 1})
+	doc = collection.find({"article_date": article_date}, {"_id": 1, "status": 1, "category": 1, "title": 1, "date": 1})
 	return dumps(doc)
 
 # Get the article detail by id. A JSON object will be returned
