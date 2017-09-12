@@ -34,3 +34,5 @@ COMPOSE_TOKEN = "143d518e50101839bb7bafb404cbad2dd607203fc1edd7117927d7f48dfc2bb
 LOG_LEVEL='INFO'
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
+
+JOBDIR = '_job'

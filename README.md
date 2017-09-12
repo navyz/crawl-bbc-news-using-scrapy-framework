@@ -17,6 +17,14 @@
 - MongoDB: for storing the captured data
 - Python Bottle: expose RESTFul web serves to server the stored data.
 
+
+## DEMO
+
+The data is exposed as RESTful web services and is available at:
+
+http://bbc.cogai.info
+
+
 ## Setup
 
 Some command lines which are used to setup environment as well as execute the scripts
@@ -88,8 +96,8 @@ db.article.createIndex( { article_date: 1 } )
 
 ` python 3.6 bbc_ws.py & `
 
+
 ## TODO
 
-1. Let spider run as daemon and incremential crawl
-2. Improve the function to clean up the html/text
-3. Crawl more information from the page beside news.
+1. Improve the function to clean up the html/text
+2. Crawl more information beside the news.

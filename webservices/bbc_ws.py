@@ -27,10 +27,9 @@ def help():
 			<p><a href='http://bbc.cogai.info/category/list/'>http://bbc.cogai.info/category/list/</a></p>
 			<br/>
 
-			<p><b>3. To list all article of a category (ex. Asia)</b></p>
-			<p><a href='http://bbc.cogai.info/article/list/category/Asia'>http://bbc.cogai.info/article/list/category/Asia</a></p>
+			<p><b>3. To list all article of a category (ex. Technology)</b></p>
+			<p><a href='http://bbc.cogai.info/article/list/category/Technology'>http://bbc.cogai.info/article/list/category/Technology</a></p>
 			<br/>
-
 
 			<p><b>4. To list all article created by date (ex. 22 Aug 2017)</b></p>
 			<p><a href='http://bbc.cogai.info/article/list/date/22%20August%202017'>http://bbc.cogai.info/article/list/date/22%20August%202017</a></p>
